@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Brand palette -->
+    <color name="indigo_primary">#4F46E5</color>
+    <color name="indigo_light">#6366F1</color>
+    <color name="indigo_deep">#1E1B4B</color>
+    <color name="indigo_pale">#EEF2FF</color>
+
+    <!-- Surfaces -->
+    <color name="background_soft">#EEF2FF</color>
+    <color name="card_white">#FFFFFF</color>
+    <color name="card_subtle">#F9FAFB</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1E1B4B</color>
+    <color name="text_secondary">#4B5563</color>
+    <color name="text_muted">#6B7280</color>
+    <color name="text_subtle">#9CA3AF</color>
+
+    <!-- Borders -->
+    <color name="border_light">#E5E7EB</color>
+    <color name="border_subtle">#F3F4F6</color>
+
+    <!-- Status colors (checklist) -->
+    <color name="status_pass_bg">#D1FAE5</color>
+    <color name="status_pass_fg">#047857</color>
+    <color name="status_warn_bg">#FEF3C7</color>
+    <color name="status_warn_fg">#B45309</color>
+    <color name="status_fail_bg">#FEE2E2</color>
+    <color name="status_fail_fg">#B91C1C</color>
+
+    <!-- Ceiling highlight -->
+    <color name="ceiling_bg">#DBEAFE</color>
+    <color name="ceiling_fg">#1E40AF</color>
+
+    <!-- White overlays for hero -->
+    <color name="white">#FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_12">#1FFFFFFF</color>
+    <color name="white_08">#14FFFFFF</color>
 </resources>

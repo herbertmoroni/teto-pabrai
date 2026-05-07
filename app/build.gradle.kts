@@ -1,6 +1,18 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
 }
+
+//Import the GitHub AI token from the local property file
+val localProperties = Properties().apply {
+    val file = rootProject.file("local.properties")
+    if (file.exists()) {
+        load(file.inputStream())
+    }
+}
+val githubToken: String = localProperties.getProperty("GITHUB_MODELS_TOKEN", "")
+
 
 android {
     namespace = "com.moroni.tetopabrai"
@@ -18,6 +30,14 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        //Import the GitHub AI token from the local property file
+        buildConfigField("String", "GITHUB_MODELS_TOKEN", "\"$githubToken\"")
+    }
+
+    //Import the GitHub AI token from the local property file
+    buildFeatures {
+        buildConfig = true
     }
 
     buildTypes {
@@ -44,4 +64,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
+    implementation("com.squareup.okhttp3:okhttp:5.3.2")
+    implementation("org.json:json:20251224")
 }

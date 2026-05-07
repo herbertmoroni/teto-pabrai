@@ -1,3 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Teto Pabrai</string>
+
+    <!-- Input card -->
+    <string name="label_ticker">Ticker symbol</string>
+    <string name="label_eps">EPS 2y forward</string>
+    <string name="label_price">Current price</string>
+    <string name="hint_ticker">TSM</string>
+    <string name="hint_eps">$22.00</string>
+    <string name="hint_price">$168.42</string>
+    <string name="action_analyze">Analyze</string>
+    <string name="input_helper">Find EPS forward 2y and current price on stockanalysis.com or your broker.</string>
+
+    <!-- Intro -->
+    <string name="brand_label">Teto Pabrai</string>
+    <string name="intro_title">Find a stock\'s ceiling price</string>
+    <string name="intro_subtitle">A Pabrai-style valuation tool. Bring the numbers, get the analysis.</string>
+
+    <!-- How it works -->
+    <string name="how_title">How it works</string>
+    <string name="how_step_1"><b>Enter</b> ticker, forward EPS &amp; current price</string>
+    <string name="how_step_2"><b>AI analyzes</b> the company &amp; picks a multiple</string>
+    <string name="how_step_3"><b>Get</b> thesis, checklist &amp; ceiling price</string>
+
+    <!-- Method -->
+    <string name="method_title">The method</string>
+    <string name="method_text">Mohnish Pabrai looks for businesses where the math fits on a napkin. Take expected earnings two years out, multiply by a conservative multiple, then subtract 20% as your margin of safety.</string>
+    <string name="method_formula">EPS × Multiple × 0.80</string>
+
+    <!-- Result section labels -->
+    <string name="result_thesis_title">Pabrai thesis</string>
+    <string name="result_thesis_sub">4 sentences</string>
+    <string name="result_math_title">Ceiling math</string>
+    <string name="result_checklist_title">Checklist</string>
+    <string name="result_share">Share result</string>
+
+    <!-- Ceiling math labels -->
+    <string name="math_eps">EPS forward (input)</string>
+    <string name="math_multiple">Multiple (AI suggested)</string>
+    <string name="math_fair_value">Fair value</string>
+    <string name="math_discount">Pabrai discount</string>
+    <string name="math_ceiling">Ceiling</string>
+    <string name="math_discount_value">× 0.80</string>
+
+    <!-- Hero labels -->
+    <string name="hero_label_current">Current</string>
+    <string name="hero_label_ceiling">Ceiling</string>
 </resources>
