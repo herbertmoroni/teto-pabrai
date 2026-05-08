@@ -9,7 +9,7 @@ The app then calculates the Pabrai ceiling price (Fair Value × 0.80) and displa
 The purpose of this project was to take my first steps into native Android development with Kotlin, learn how to structure a real mobile app with XML layouts and an Activity-based architecture, integrate a third-party AI API into a mobile interface, and practice handling asynchronous network calls cleanly. As a software engineer, I wanted to build something I would actually use rather than a generic tutorial project — this app maps directly to the manual workflow I follow when researching stocks for my personal investing.
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/_6TxPvNJJP8)
 
 # Development Environment
 
